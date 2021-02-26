@@ -1,7 +1,7 @@
 from fastai.basics import *
 import copy
 
-class SAMCallback(Callback):
+class SAM(Callback):
     def __init__(self,rho=.05):
         self.rho = rho
     

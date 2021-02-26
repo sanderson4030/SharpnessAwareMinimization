@@ -14,7 +14,7 @@ learn.fit_one_cycle(1, 3e-4, wd=.1, cbs=SAM(rho=.05))
 ```
 ### SAM
 
-SAMC has only one parater: `rho`
+SAM has only one parater: `rho`
 
 `rho` is a hyperparameter controling the distance of the virtual step size used in SAM. The default setting for `rho` is 0.05, but this will not always be the ideal setting. The authors recomend performing a grid search over the following range to find the best value for your model and data:
 {0.01, 0.02, 0.05, 0.1, 0.2, 0.5}

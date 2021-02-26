@@ -1,6 +1,6 @@
 # Sharpness-Aware Minimization
 
-Unofficial implementation of [Sharpness-Aware Minimization (SAM)](https://arxiv.org/abs/2010.01412) (Proceedings of ICLR 2021) for [fast.ai (V2)](https://docs.fast.ai/).
+Unofficial implementation of [Sharpness-Aware Minimization (SAM)](https://arxiv.org/abs/2010.01412) (Foret et al. ICLR 2021) for [fast.ai (V2)](https://docs.fast.ai/).
 
 This package provides the SAM (Sharpness-Aware Minimization) callback for use with the fastai learner.
 
